@@ -1,2 +1,5 @@
 *.pyc
 *.bak
+build
+dist
+pylib/gyp.egg-info
