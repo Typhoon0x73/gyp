@@ -1,4 +1,5 @@
 @echo off
 setlocal
-python ../setup.py install
+cd ../
+python setup.py install
 pause
