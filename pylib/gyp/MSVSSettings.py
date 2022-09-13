@@ -585,6 +585,7 @@ _Same(_compile, 'ForcedIncludeFiles', _file_list)  # /FI
 _Same(_compile, 'ForcedUsingFiles', _file_list)  # /FU
 _Same(_compile, 'GenerateXMLDocumentationFiles', _boolean)  # /doc
 _Same(_compile, 'IgnoreStandardIncludePath', _boolean)  # /X
+_Same(_compile, 'LanguageStandard', _string)
 _Same(_compile, 'MinimalRebuild', _boolean)  # /Gm
 _Same(_compile, 'OmitDefaultLibName', _boolean)  # /Zl
 _Same(_compile, 'OmitFramePointers', _boolean)  # /Oy
